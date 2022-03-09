@@ -1,0 +1,13 @@
+key1: value1
+key2: something
+
+"%parent-profile":
+  key2: value2
+  key3: value3
+
+"%child-profile":
+  quarkus:
+    config:
+      profile:
+        parent: parent-profile
+  key4: value4
